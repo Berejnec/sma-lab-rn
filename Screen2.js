@@ -5,9 +5,6 @@ import firebase from "firebase/app";
 import "firebase/database";
 import { db } from "./App";
 import { collection, addDoc } from "firebase/firestore";
-// import { collection, doc, setDoc } from "firebase/firestore";
-
-// const textsRef = collection(db, "texts");
 
 const Screen2 = () => {
   const [text, setText] = useState("");
